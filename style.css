@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: skyblue;
+}
+
+.flexParent {
+	display: flex;
+}
+
+.flexParent div {
+	background-color: azure;
+	margin: 20px;
+	padding: 15px;
+	border: 5px solid black;
+}
+.flexParent, p {
+	background-color: yellow;
+}
+
+.flexParent div > p {
+	background-color: cornflowerblue;
+	font-size: 10vw;
+}
+
+.flexParent div p:first-child {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 10vh;
+}
+
+.flexParent div p:last-child{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 10vmin;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 10vmax;
+}
